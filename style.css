@@ -1,0 +1,64 @@
+body{
+  font-family: sans-serif;
+}
+.flags{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+img,button{
+  width: 19vw;
+  height: 23vh;
+  cursor: pointer;
+  border: 2px solid white;
+}
+img:hover{
+  border: 4px solid rgb(0, 30, 255);
+  border-radius: 5px;
+}
+.container{
+ width: 60vw;
+ height: 50vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+ margin: auto;
+ margin-top: 20vh;
+ padding-left: 20px;
+ padding-right: 20px;
+ box-shadow: 2px 2px 15px 1px black;
+ border-radius: 20px;
+}
+.result{
+ width: 20vw;
+ height: 15vh;
+ display: flex; 
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ margin: auto;
+ margin-top: 30vh;
+ padding-left: 20px;  
+ padding-top: 30px;
+ padding-right: 20px;
+ box-shadow: 2px 2px 25px 1px rgb(153, 152, 152);
+ font-weight: bold;
+ font-size: 1.6vw;
+ border-radius: 20px;
+}
+.Guess{
+  margin-bottom: 20px;
+  font-size: 2vw;
+  font-weight: bolder;
+}
+
+.question{
+  margin-bottom: 20px;
+  font-size: 1.5vw;
+}
+.score{
+  margin-top: 20px ;
+  font-size: 1.5vw;
+}
